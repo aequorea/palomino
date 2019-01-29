@@ -1,0 +1,244 @@
+;design compiler file for Rev B of Palomino
+;2-7-95
+
+j1
+1  gnd
+2  vin
+3  gnd
+4  vout
+
+c0
+1  vin
+2  gnd
+
+c1
+1  vin
+2  gnd
+
+r12
+1  vin
+2  vtran
+
+q1
+1  gate
+2  l1.2
+3  vtran
+
+d1
+1  l1.2
+2  gnd
+
+l1
+1  vout
+2  l1.2
+
+c2
+1  vout
+2  gnd
+
+r1
+1  vout
+2  vsense
+
+r2
+1  vsense
+2  gnd
+
+r5
+1  switch
+2  u2.7
+
+u2
+1  vin
+8  vmosfet
+7  u2.7
+6  u2.6
+9  u2.6
+10 gate
+3  gnd
+5  gnd
+11 gnd
+14 gnd
+
+c10
+1  vin
+2  vmosfet
+
+mh1
+1  gnd
+
+mh2
+1  gnd
+
+mh3
+1  gnd
+
+mh4
+1  gnd
+
+j3
+1  u4.1
+2  tsense
+
+j4
+1  pulse
+2  gnd
+
+j5
+1  cycle
+2  gnd
+
+r6
+1  tsense
+2  gnd
+
+u1
+3  gnd
+5  vin
+9  vset
+10 vsense
+11 gnd
+12 u1.12
+13 vin
+14 vtran
+15 switch
+
+r11
+1  switch
+2  vin
+
+c5
+1  u1.12
+2  gnd
+
+u4
+4  vin
+11 gnd
+3  vcc
+2  u4.2
+1  u4.1
+9  u4.9
+10 u4.10
+8  vmosfet
+6  u4.6
+5  u4.5
+7  u4.7
+12 gnd
+13 gnd
+
+r16
+1  vcc
+2  u4.6
+
+r18
+1  vout
+2  u4.5
+
+r17
+1  u4.6
+2  u4.7
+
+r19
+1  u4.5
+2  gnd
+
+r20
+1  u4.7
+2  vbat
+
+r7
+1  vcc
+2  u4.9
+
+r9
+1  vin
+2  u4.10
+
+r10
+1  u4.10
+2  gnd
+
+r8
+1  u4.9
+2  vmosfet
+
+c4
+1  vmosfet
+2  gnd
+
+r13
+1  u4.2
+2  gnd
+
+r14
+1  u4.1
+2  u4.2
+
+c6
+1  u4.1
+2  gnd
+
+r15
+1  u4.1
+2  vout
+
+r23
+1  red
+2  j2.1
+
+r24
+1  green
+2  j2.2
+
+j2
+1  j2.1
+2  j2.2
+
+u3
+1  vbat
+2  tsense
+3  gnd
+4  reset
+5  gnd
+8  pulse
+9  cycle
+16 osc1
+15 osc2
+14 vcc
+13 green
+12 red
+11 vset
+
+c7
+1  vcc
+2  gnd
+
+y1
+1  osc1
+2  osc2
+
+c8
+1  osc2
+2  gnd
+
+c9
+1  osc1
+2  gnd
+
+r22
+1  vset
+2  gnd
+
+u5
+1  vcc
+2  gnd
+3  vin
+
+c11
+1  vcc
+2  gnd
+
+u6
+1  reset
+2  vcc
+3  gnd

@@ -1,0 +1,37 @@
+John Saeger
+Tacoma, Washington
+
+
+Fabrication notes for PALOMINO
+
+Dimensions are in inches unless otherwise noted.
+
+Board material is 0.062 glass epoxy FR4 or equivalent.  Board is 2-sided with plated through holes.
+
+Drill panel using PALOMINO.XLN.  Drill sizes are in PALOMINO.REP.  Board corners are marked with the 1 mil holes; don't drill these.  There are approximately 1440 holes to be drilled in 6 different sizes.  The smallest hole is 0.038 and the largest hole is 0.250 (one only per board).
+  
+Board is rectangular, finished size is 3.600 by 2.700.  Dimensions are +/- 0.005.  Artwork is 9-up on 10" by 12" film in a 3 by 3 grid with 0.100 spacing between boards.  
+
+Manufacture component side using PALOMINO.TOP and the solder side using PALOMINO.BOT.  In the supplied artwork, the thinnest trace is 12 mil and the smallest gap is 13 mil; take appropriate precautions in your process.
+
+Circuitry to be placed within 0.005 of true position.
+
+Traces and pads to be 0.002 minimum thickness copper after plating.
+
+Hole walls to be 0.001 minimum thickness copper after plating.
+
+Minimum annular ring on all holes to be 0.005.
+
+60/40 Tin/Lead plate to a total thickness of 0.0004/0.0006.
+
+Apply solder mask to both sides of board using PALOMINO.TSM.  Color:  Black.
+
+Apply silkscreen to component side of board using PALOMINO.TSS.  Color:  White.
+
+Request for Quote
+
+Please quote on 4 panels (36 boards),  12 panels (108 boards), and 28 panels (252 boards), with a 1 week standard delivery time and call me.  If you have any questions, please call me.  Thanks.
+
+
+
+John Saeger
