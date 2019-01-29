@@ -1,0 +1,1 @@
+Here are the design files. The .pcb file is in principle the pc layout file for Tango PCB. The .dc file is a design compiler file which is a text representation of the schematic. The .net file is created by the dc.pas program and is a netlist that can be compared with a netlist made by Tango PCB.
