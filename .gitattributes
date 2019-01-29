@@ -1,2 +1,2 @@
 * linguist-vendored
-*.SRC linguist-vendored=false
+*.ASM linguist-vendored=false
