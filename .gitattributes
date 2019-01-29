@@ -1,2 +1,2 @@
 * linguist-vendored
-*.SRC linguist-language=Assembly
+*.SRC linguist-vendored=false
