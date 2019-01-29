@@ -1,0 +1,190 @@
+
+
+
+    Aperture Information                                        PALOMINO.PCB
+
+                                    PALOMINO
+
+                         Aperture and Tool Descriptions
+    ========================================================================
+
+    Code   Shape    X    Y     Hole  Type   Comment
+    ------------------------------------------------------------------------
+    D11    Ellipse  010  010   000   Draw   10 Mil Round Draw
+    D12    Ellipse  012  012   000   Draw   12 Mil Round Draw
+    D13    Ellipse  024  024   000   Draw   24 Mil Round Draw
+    D14    Ellipse  050  050   000   Draw   50 Mil Round  Draw
+    D21    Ellipse  040  040   000   Flash  40 Mil Round Flash
+    D22    Ellipse  050  050   000   Flash  50 Mil Round Flash
+    D23    Ellipse  060  060   000   Flash  60 Mil Round Flash
+    D24    Ellipse  070  070   000   Flash  70 Mil Round Flash
+    D25    Ellipse  080  080   000   Flash  80 Mil Round Flash
+    D26    Ellipse  090  090   000   Flash  90 Mil Round Flash
+    D27    Ellipse  100  100   000   Flash  100 Mil Round Flash
+    D28    Ellipse  110  110   000   Flash  110 Mil Round Flash
+    D29    Ellipse  300  300   000   Flash  300 Mil Round Flash
+    D30    Ellipse  310  310   000   Flash  310 Mil Round Flash
+    D31    Oval     060  080   000   Flash  60 by 80 Oval
+    D32    Oval     070  090   000   Flash  70 by 90 Oval
+    D33    Oval     080  060   000   Flash  80 by 60 Oval
+    D34    Oval     090  070   000   Flash  90 by 70 Oval
+    D41    Sq Rect  040  040   000   Flash  40 Mil Square Flash
+    D42    Sq Rect  050  050   000   Flash  50 Mil Square Flash
+    D43    Sq Rect  060  060   000   Flash  60 Mil Square Flash
+    D44    Sq Rect  070  070   000   Flash  70 Mil Square Flash
+    D45    Sq Rect  080  080   000   Flash  80 Mil Square Flash
+    D46    Sq Rect  090  090   000   Flash  90 Mil Square Flash
+    D47    Sq Rect  100  100   000   Flash  100 Mil Square Flash
+    D48    Sq Rect  110  110   000   Flash  110 Mil Square Flash
+    D51    Sq Rect  060  080   000   Flash  60 by 80 Rectangle
+    D52    Sq Rect  070  090   000   Flash  70 by 90 Rectangle
+    D53    Sq Rect  080  060   000   Flash  80 by 60 Rectangle
+    D54    Sq Rect  090  070   000   Flash  90 by 70 Rectangle
+    
+
+
+    Code   Hole Diameter
+    --------------------
+    T01    001
+    T02    028
+    T03    038
+    T04    046
+    T05    056
+    T06    062
+    T07    071
+    T08    125
+    T09    250
+
+
+
+
+
+                                    PALOMINO
+
+    11-Jan-95  11:33                                                 Page  1
+
+
+    Aperture Information                                        PALOMINO.PCB
+
+                                    PALOMINO
+
+                          Aperture and Tool Assignments
+    ========================================================================
+
+    Item                     Normal  S Mask   Plane   Thermal  Drl Sym  Tool
+    ------------------------------------------------------------------------
+    DRAW APERTURE            D11      -        -       -        -        -
+    LINE_010                 DRAW     -        -       -        -        -
+    LINE_012                 D12      -        -       -        -        -
+    LINE_024                 D13      -        -       -        -        -
+    LINE_050                 D14      -        -       -        -        -
+    P_EL_0050_0050_028_AL    D21     D22      D22     DRAW      -        -
+    P_EL_0060_0060_038_AL    D23     D24      D24     DRAW      -        -
+    P_EL_0070_0070_046_AL    D24     D25      D25     DRAW      -        -
+    P_EL_0100_0100_062_AL    D27     D28      D28     DRAW      -        -
+    P_EL_0100_0100_071_AL    D27     D28      D28     DRAW      -        -
+    P_EL_0300_0300_125_AL    D29     D30      D30     DRAW      -        -
+    P_MH_0012_0012_001_AL    DRAW     -       DRAW     -        -        -
+    P_MH_0126_0126_125_AL     *       -        *       -        -        -
+    P_MH_0324_0324_250_AL    DRAW     -       DRAW     -        -        -
+    P_OV_0080_0060_038_AL    D33     D34      DRAW    DRAW      -        -
+    P_SQ_0050_0050_028_AL    D42     D43      DRAW    DRAW      -        -
+    P_SQ_0060_0060_038_AL    D43     D44      D44     DRAW      -        -
+    P_SQ_0070_0070_046_AL    D44     D45      D45     DRAW      -        -
+    P_SQ_0080_0060_038_AL    D53     D54      D54     DRAW      -        -
+    P_SQ_0100_0100_062_AL    D47     D48      D48     DRAW      -        -
+    P_SQ_0100_0100_071_AL    D47     D48      D48     DRAW      -        -
+    P_TG_0300_0300_000_AL    DRAW     -        -       -        -        -
+    HOLE_001                  -       -        -       -       DRAW     T01
+    HOLE_028                  -       -        -       -       DRAW     T04
+    HOLE_038                  -       -        -       -       DRAW     T03
+    HOLE_046                  -       -        -       -       DRAW     T04
+    HOLE_062                  -       -        -       -       DRAW     T06
+    HOLE_071                  -       -        -       -       DRAW     T07
+    HOLE_125                  -       -        -       -       DRAW     T08
+    HOLE_250                  -       -        -       -       DRAW     T09
+    
+
+    - : Not applicable.                   * : Aperture/tool is not assigned.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    PALOMINO
+
+    11-Jan-95  11:33                                                 Page  2
+
+
+    PCB Statistics                                              PALOMINO.PCB
+
+                                    PALOMINO
+
+    ========================================================================
+
+    Arcs:    225      Strings:   985      Pads:  1497      Holes:       1494
+    Fills:     0      Tracks:   4581      Vias:     0      Components:   459
+
+    ------------------------------------------------------------------------
+
+    String Summary -      S_0040_010_0:    18
+                          S_0048_010_0:   634
+                          S_0048_010_3:   324
+                          S_0060_010_3:     9
+    
+    Track Summary -       T_010:  1548
+                          T_012:  1755
+                          T_024:   198
+                          T_050:  1080
+    
+    Pad Summary -         P_EL_0050_0050_028_AL:    36
+                          P_EL_0060_0060_038_AL:   324
+                          P_EL_0070_0070_046_AL:    18
+                          P_EL_0100_0100_062_AL:    18
+                          P_EL_0100_0100_071_AL:    36
+                          P_EL_0300_0300_125_AL:    36
+                          P_MH_0012_0012_001_AL:    36
+                          P_MH_0126_0126_125_AL:    18
+                          P_MH_0324_0324_250_AL:     9
+                          P_OV_0080_0060_038_AL:   540
+                          P_SQ_0050_0050_028_AL:    18
+                          P_SQ_0060_0060_038_AL:   324
+                          P_SQ_0070_0070_046_AL:     9
+                          P_SQ_0080_0060_038_AL:    36
+                          P_SQ_0100_0100_062_AL:    18
+                          P_SQ_0100_0100_071_AL:    18
+                          P_TG_0300_0300_000_AL:     3
+    
+    Hole Summary -        H001:    36
+                          H028:    54
+                          H038:  1224
+                          H046:    27
+                          H062:    36
+                          H071:    54
+                          H125:    54
+                          H250:     9
+    
+    Plane Connections -   Power Thermals:      0
+                          Power Directs:       0
+                          Ground Thermals:     0
+                          Ground Directs:      0
+    
+
+
+
+
+
+                                    PALOMINO
+
+    11-Jan-95  11:33                                                 Page  1
