@@ -1,5 +1,5 @@
 ### palomino
-####palomino battery charger
+#### palomino battery charger
 
 This was a rapid battery charger for police and other emergency radio batteries. These days, up to a point, rapid charging of rechargeable batteries is fairly common. Back then, not so much.
 
