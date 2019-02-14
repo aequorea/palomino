@@ -1,5 +1,5 @@
-### palomino
-#### palomino battery charger
+## palomino
+The palomino battery charger.
 <p align="center">
   <img src="palomino.JPG" width="500"/>
 </p>
